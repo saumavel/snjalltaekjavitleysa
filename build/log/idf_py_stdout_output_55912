@@ -1,0 +1,654 @@
+     : DIO[0m
+[0;32m�MJ��ѹesp32: SPI Flash Size : 4MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type �ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7112
+load:0x40078000,len:15644
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (30) boot: ESP-IDF v5.4-dev-3201-g46acfdce96-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov  6 2024 22:56:48[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f678h (128632) map[0m
+[0;32mI (150) esp_image: segment 1: paddr=0002f6a0 vaddr=3ff80000 size=00018h (    24) load[0m
+[0;32mI (150) esp_image: segment 2: paddr=0002f6c0 vaddr=3ffb0000 size=00958h (  2392) load[0m
+[0;32mI (156) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=80988h (526728) map[0m
+[0;32mI (344) esp_image: segment 4: paddr=000b09b0 vaddr=3ffb0958 size=0360ch ( 13836) load[0m
+[0;32mI (349) esp_image: segment 5: paddr=000b3fc4 vaddr=40080000 size=17470h ( 95344) load[0m
+[0;32mI (398) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (398) boot: Disabling RNG early entropy source...[0m
+[0;32mI (410) cpu_start: Multicore app[0m
+[0;32mI (419) cpu_start: Pro cpu start user code[0m
+[0;32mI (419) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (419) app_init: Application information:[0m
+[0;32mI (422) app_init: Project name:     lownet[0m
+[0;32mI (427) app_init: App version:      1[0m
+[0;32mI (431) app_init: Compile time:     Nov  6 2024 22:55:09[0m
+[0;32mI (437) app_init: ELF file SHA256:  1ab76ed08...[0m
+[0;32mI (442) app_init: ESP-IDF:          v5.4-dev-3201-g46acfdce96-dirty[0m
+[0;32mI (449) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (454) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (459) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (464) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (471) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (477) heap_init: At 3FFB88D0 len 00027730 (157 KiB): DRAM[0m
+[0;32mI (483) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (489) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (496) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (504) spi_flash: detected chip: generic[0m
+[0;32mI (507) spi_flash: flash io: dio[0m
+[0;32mI (512) main_task: Started on CPU0[0m
+[0;32mI (522) main_task: Calling app_main()[0m
+[0;31mE (522) task_wdt: esp_task_wdt_init(515): TWDT already initialized[0m
+[0;31mE (522) WDT_INIT: Failed to initialize Task Watchdog Timer[0m
+[0;32mI (552) wifi:wifi driver task: 3ffc2f04, prio:23, stack:6656, core=0[0m
+[0;32mI (552) wifi:wifi firmware version: 643903f[0m
+[0;32mI (552) wifi:wifi certification version: v7.0[0m
+[0;32mI (552) wifi:config NVS flash: enabled[0m
+[0;32mI (552) wifi:config nano formatting: disabled[0m
+[0;32mI (562) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (562) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (572) wifi:Init management short buffer num: 32[0m
+[0;32mI (572) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (582) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (582) wifi:Init static rx buffer num: 10[0m
+[0;32mI (582) wifi:Init dynamic rx buffer num: 32[0m
+SYNC // FIRMWARE READY
+[0;32mI (592) wifi_init: rx ba win: 6[0m
+[0;32mI (592) wifi_init: accept mbox: 6[0m
+[0;32mI (602) wifi_init: tcpip mbox: 32[0m
+[0;32mI (602) wifi_init: udp mbox: 6[0m
+[0;32mI (612) wifi_init: tcp mbox: 6[0m
+[0;32mI (612) wifi_init: tcp tx win: 5760[0m
+[0;32mI (612) wifi_init: tcp rx win: 5760[0m
+[0;32mI (622) wifi_init: tcp mss: 1440[0m
+[0;32mI (622) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (632) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (632) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (722) wifi:mode : sta (24:62:ab:f9:21:b0)[0m
+[0;32mI (722) wifi:enable tsf[0m
+[0;32mI (722) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (722) lownet-core: Initialized LowNet -- device ID: 0x96[0m
+[0;31mE (5522) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5522) task_wdt:  - main (CPU 0)[0m
+[0;31mE (5522) task_wdt: Tasks currently running:[0m
+[0;31mE (5522) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (5522) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5522) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;31mE (10712) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10712) task_wdt:  - main (CPU 0)[0m
+[0;31mE (10712) task_wdt: Tasks currently running:[0m
+[0;31mE (10712) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (10712) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10712) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (10822) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (15812) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15812) task_wdt:  - main (CPU 0)[0m
+[0;31mE (15812) task_wdt: Tasks currently running:[0m
+[0;31mE (15812) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (15812) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15812) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (15922) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+Guru Meditation Error: Core  0 panic'ed (InstructionFetchError). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x3ffcbeb4  PS      : 0x00060730  A0      : 0x80106870  A1      : 0x3ffc2b90  
+A2      : 0xffffffff  A3      : 0x3ffc4c48  A4      : 0x000000f3  A5      : 0x00000001  
+A6      : 0x4014e960  A7      : 0x3ffb281c  A8      : 0x8010b9e8  A9      : 0x3ffcbeb4  
+A10     : 0x3ffc4c30  A11     : 0x3ffc4c48  A12     : 0x000000f3  A13     : 0x00000001  
+A14     : 0x00000021  A15     : 0x000000b0  SAR     : 0x00000010  EXCCAUSE: 0x00000002  
+EXCVADDR: 0x3ffcbeb4  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x3ffcbeb1:0x3ffc2b90 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 1ab76ed08
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7112
+load:0x40078000,len:15644
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4-dev-3201-g46acfdce96-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov  6 2024 22:56:48[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f678h (128632) map[0m
+[0;32mI (150) esp_image: segment 1: paddr=0002f6a0 vaddr=3ff80000 size=00018h (    24) load[0m
+[0;32mI (151) esp_image: segment 2: paddr=0002f6c0 vaddr=3ffb0000 size=00958h (  2392) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=80988h (526728) map[0m
+[0;32mI (344) esp_image: segment 4: paddr=000b09b0 vaddr=3ffb0958 size=0360ch ( 13836) load[0m
+[0;32mI (350) esp_image: segment 5: paddr=000b3fc4 vaddr=40080000 size=17470h ( 95344) load[0m
+[0;32mI (398) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (398) boot: Disabling RNG early entropy source...[0m
+[0;32mI (411) cpu_start: Multicore app[0m
+[0;32mI (419) cpu_start: Pro cpu start user code[0m
+[0;32mI (419) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (419) app_init: Application information:[0m
+[0;32mI (422) app_init: Project name:     lownet[0m
+[0;32mI (427) app_init: App version:      1[0m
+[0;32mI (431) app_init: Compile time:     Nov  6 2024 22:55:09[0m
+[0;32mI (437) app_init: ELF file SHA256:  1ab76ed08...[0m
+[0;32mI (443) app_init: ESP-IDF:          v5.4-dev-3201-g46acfdce96-dirty[0m
+[0;32mI (450) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (454) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (459) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (464) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (472) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (478) heap_init: At 3FFB88D0 len 00027730 (157 KiB): DRAM[0m
+[0;32mI (484) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (490) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (497) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (504) spi_flash: detected chip: generic[0m
+[0;32mI (507) spi_flash: flash io: dio[0m
+[0;32mI (513) main_task: Started on CPU0[0m
+[0;32mI (523) main_task: Calling app_main()[0m
+[0;31mE (523) task_wdt: esp_task_wdt_init(515): TWDT already initialized[0m
+[0;31mE (523) WDT_INIT: Failed to initialize Task Watchdog Timer[0m
+[0;32mI (553) wifi:wifi driver task: 3ffc2f04, prio:23, stack:6656, core=0[0m
+[0;32mI (553) wifi:wifi firmware version: 643903f[0m
+[0;32mI (553) wifi:wifi certification version: v7.0[0m
+[0;32mI (553) wifi:config NVS flash: enabled[0m
+[0;32mI (553) wifi:config nano formatting: disabled[0m
+[0;32mI (563) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (563) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (573) wifi:Init management short buffer num: 32[0m
+[0;32mI (573) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (583) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (583) wifi:Init static rx buffer num: 10[0m
+[0;32mI (583) wifi:Init dynamic rx buffer num: 32[0m
+SYNC // FIRMWARE READY
+[0;32mI (593) wifi_init: rx ba win: 6[0m
+[0;32mI (593) wifi_init: accept mbox: 6[0m
+[0;32mI (603) wifi_init: tcpip mbox: 32[0m
+[0;32mI (603) wifi_init: udp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp tx win: 5760[0m
+[0;32mI (613) wifi_init: tcp rx win: 5760[0m
+[0;32mI (623) wifi_init: tcp mss: 1440[0m
+[0;32mI (623) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (633) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (633) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (723) wifi:mode : sta (24:62:ab:f9:21:b0)[0m
+[0;32mI (723) wifi:enable tsf[0m
+[0;32mI (723) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (723) lownet-core: Initialized LowNet -- device ID: 0x96[0m
+[0;31mE (5523) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5523) task_wdt:  - main (CPU 0)[0m
+[0;31mE (5523) task_wdt: Tasks currently running:[0m
+[0;31mE (5523) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (5523) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5523) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;31mE (10713) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10713) task_wdt:  - main (CPU 0)[0m
+[0;31mE (10713) task_wdt: Tasks currently running:[0m
+[0;31mE (10713) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (10713) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10713) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (10823) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (15813) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15813) task_wdt:  - main (CPU 0)[0m
+[0;31mE (15813) task_wdt: Tasks currently running:[0m
+[0;31mE (15813) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (15813) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15813) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (15923) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (20913) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (20913) task_wdt:  - main (CPU 0)[0m
+[0;31mE (20913) task_wdt: Tasks currently running:[0m
+[0;31mE (20913) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (20913) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (20913) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (21023) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (26013) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (26013) task_wdt:  - main (CPU 0)[0m
+[0;31mE (26013) task_wdt: Tasks currently running:[0m
+[0;31mE (26013) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (26013) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (26013) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (26123) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (31113) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (31113) task_wdt:  - main (CPU 0)[0m
+[0;31mE (31113) task_wdt: Tasks currently running:[0m
+[0;31mE (31113) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (31113) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (31113) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (31223) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (36213) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (36213) task_wdt:  - main (CPU 0)[0m
+[0;31mE (36213) task_wdt: Tasks currently running:[0m
+[0;31mE (36213) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (36213) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (36213) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (36323) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (41313) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (41313) task_wdt:  - main (CPU 0)[0m
+[0;31mE (41313) task_wdt: Tasks currently running:[0m
+[0;31mE (41313) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (41313) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (41313) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (41423) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (46413) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (46413) task_wdt:  - main (CPU 0)[0m
+[0;31mE (46413) task_wdt: Tasks currently running:[0m
+[0;31mE (46413) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (46413) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (46413) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (46523) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (51513) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (51513) task_wdt:  - main (CPU 0)[0m
+[0;31mE (51513) task_wdt: Tasks currently running:[0m
+[0;31mE (51513) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (51513) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (51513) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (51623) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (56613) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (56613) task_wdt:  - main (CPU 0)[0m
+[0;31mE (56613) task_wdt: Tasks currently running:[0m
+[0;31mE (56613) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (56613) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (56613) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (56723) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (61713) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (61713) task_wdt:  - main (CPU 0)[0m
+[0;31mE (61713) task_wdt: Tasks currently running:[0m
+[0;31mE (61713) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (61713) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (61713) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (61823) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+Guru Meditation Error: Core  0 panic'ed (InstructionFetchError). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x3ffcbeb4  PS      : 0x00060730  A0      : 0x80106870  A1      : 0x3ffc2b90  
+A2      : 0xffffffff  A3      : 0x3ffc4c48  A4      : 0x000000f3  A5      : 0x00000001  
+A6      : 0x4014e960  A7      : 0x3ffb281c  A8      : 0x8010b9e8  A9      : 0x3ffcbeb4  
+A10     : 0x3ffc4c30  A11     : 0x3ffc4c48  A12     : 0x000000f3  A13     : 0x00000001  
+A14     : 0x00000021  A15     : 0x000000b0  SAR     : 0x00000010  EXCCAUSE: 0x00000002  
+EXCVADDR: 0x3ffcbeb4  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x3ffcbeb1:0x3ffc2b90 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 1ab76ed08
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7112
+load:0x40078000,len:15644
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4-dev-3201-g46acfdce96-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov  6 2024 22:56:48[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f678h (128632) map[0m
+[0;32mI (150) esp_image: segment 1: paddr=0002f6a0 vaddr=3ff80000 size=00018h (    24) load[0m
+[0;32mI (151) esp_image: segment 2: paddr=0002f6c0 vaddr=3ffb0000 size=00958h (  2392) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=80988h (526728) map[0m
+[0;32mI (344) esp_image: segment 4: paddr=000b09b0 vaddr=3ffb0958 size=0360ch ( 13836) load[0m
+[0;32mI (350) esp_image: segment 5: paddr=000b3fc4 vaddr=40080000 size=17470h ( 95344) load[0m
+[0;32mI (398) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (398) boot: Disabling RNG early entropy source...[0m
+[0;32mI (411) cpu_start: Multicore app[0m
+[0;32mI (419) cpu_start: Pro cpu start user code[0m
+[0;32mI (419) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (419) app_init: Application information:[0m
+[0;32mI (422) app_init: Project name:     lownet[0m
+[0;32mI (427) app_init: App version:      1[0m
+[0;32mI (431) app_init: Compile time:     Nov  6 2024 22:55:09[0m
+[0;32mI (437) app_init: ELF file SHA256:  1ab76ed08...[0m
+[0;32mI (443) app_init: ESP-IDF:          v5.4-dev-3201-g46acfdce96-dirty[0m
+[0;32mI (450) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (454) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (459) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (464) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (472) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (478) heap_init: At 3FFB88D0 len 00027730 (157 KiB): DRAM[0m
+[0;32mI (484) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (490) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (497) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (504) spi_flash: detected chip: generic[0m
+[0;32mI (507) spi_flash: flash io: dio[0m
+[0;32mI (513) main_task: Started on CPU0[0m
+[0;32mI (523) main_task: Calling app_main()[0m
+[0;31mE (523) task_wdt: esp_task_wdt_init(515): TWDT already initialized[0m
+[0;31mE (523) WDT_INIT: Failed to initialize Task Watchdog Timer[0m
+[0;32mI (553) wifi:wifi driver task: 3ffc2f04, prio:23, stack:6656, core=0[0m
+[0;32mI (553) wifi:wifi firmware version: 643903f[0m
+[0;32mI (553) wifi:wifi certification version: v7.0[0m
+[0;32mI (553) wifi:config NVS flash: enabled[0m
+[0;32mI (553) wifi:config nano formatting: disabled[0m
+[0;32mI (563) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (563) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (573) wifi:Init management short buffer num: 32[0m
+[0;32mI (573) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (583) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (583) wifi:Init static rx buffer num: 10[0m
+[0;32mI (583) wifi:Init dynamic rx buffer num: 32[0m
+SYNC // FIRMWARE READY
+[0;32mI (593) wifi_init: rx ba win: 6[0m
+[0;32mI (593) wifi_init: accept mbox: 6[0m
+[0;32mI (603) wifi_init: tcpip mbox: 32[0m
+[0;32mI (603) wifi_init: udp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp tx win: 5760[0m
+[0;32mI (613) wifi_init: tcp rx win: 5760[0m
+[0;32mI (623) wifi_init: tcp mss: 1440[0m
+[0;32mI (623) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (633) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (633) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (723) wifi:mode : sta (24:62:ab:f9:21:b0)[0m
+[0;32mI (723) wifi:enable tsf[0m
+[0;32mI (723) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (723) lownet-core: Initialized LowNet -- device ID: 0x96[0m
+[0;31mE (5523) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5523) task_wdt:  - main (CPU 0)[0m
+[0;31mE (5523) task_wdt: Tasks currently running:[0m
+[0;31mE (5523) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (5523) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5523) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;31mE (10713) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10713) task_wdt:  - main (CPU 0)[0m
+[0;31mE (10713) task_wdt: Tasks currently running:[0m
+[0;31mE (10713) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (10713) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10713) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (10823) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (15813) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15813) task_wdt:  - main (CPU 0)[0m
+[0;31mE (15813) task_wdt: Tasks currently running:[0m
+[0;31mE (15813) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (15813) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15813) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (15923) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (20913) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (20913) task_wdt:  - main (CPU 0)[0m
+[0;31mE (20913) task_wdt: Tasks currently running:[0m
+[0;31mE (20913) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (20913) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (20913) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (21023) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (26013) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (26013) task_wdt:  - main (CPU 0)[0m
+[0;31mE (26013) task_wdt: Tasks currently running:[0m
+[0;31mE (26013) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (26013) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (26013) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (26123) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+[0;31mE (31113) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (31113) task_wdt:  - main (CPU 0)[0m
+[0;31mE (31113) task_wdt: Tasks currently running:[0m
+[0;31mE (31113) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (31113) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (31113) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (31223) MEMORY_CHECK: Free heap size: 209768 bytes[0m
+Guru Meditation Error: Core  0 panic'ed (InstructionFetchError). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x3ffcbeb4  PS      : 0x00060730  A0      : 0x80106870  A1      : 0x3ffc2b90  
+A2      : 0xffffffff  A3      : 0x3ffc4c48  A4      : 0x000000f3  A5      : 0x00000001  
+A6      : 0x4014e960  A7      : 0x3ffb281c  A8      : 0x8010b9e8  A9      : 0x3ffcbeb4  
+A10     : 0x3ffc4c30  A11     : 0x3ffc4c48  A12     : 0x000000f3  A13     : 0x00000001  
+A14     : 0x00000021  A15     : 0x000000b0  SAR     : 0x00000010  EXCCAUSE: 0x00000002  
+EXCVADDR: 0x3ffcbeb4  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x3ffcbeb1:0x3ffc2b90 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 1ab76ed08
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7112
+load:0x40078000,len:15644
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4-dev-3201-g46acfdce96-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov  6 2024 22:56:48[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f678h (128632) map[0m
+[0;32mI (150) esp_image: segment 1: paddr=0002f6a0 vaddr=3ff80000 size=00018h (    24) load[0m
+[0;32mI (151) esp_image: segment 2: paddr=0002f6c0 vaddr=3ffb0000 size=00958h (  2392) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=80988h (526728) map[0m
+[0;32mI (344) esp_image: segment 4: paddr=000b09b0 vaddr=3ffb0958 size=0360ch ( 13836) load[0m
+[0;32mI (350) esp_image: segment 5: paddr=000b3fc4 vaddr=40080000 size=17470h ( 95344) load[0m
+[0;32mI (398) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (398) boot: Disabling RNG early entropy source...[0m
+[0;32mI (411) cpu_start: Multicore app[0m
+[0;32mI (419) cpu_start: Pro cpu start user code[0m
+[0;32mI (419) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (419) app_init: Application information:[0m
+[0;32mI (422) app_init: Project name:     lownet[0m
+[0;32mI (427) app_init: App version:      1[0m
+[0;32mI (431) app_init: Compile time:     Nov  6 2024 22:55:09[0m
+[0;32mI (437) app_init: ELF file SHA256:  1ab76ed08...[0m
+[0;32mI (443) app_init: ESP-IDF:          v5.4-dev-3201-g46acfdce96-dirty[0m
+[0;32mI (450) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (454) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (459) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (465) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (472) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (478) heap_init: At 3FFB88D0 len 00027730 (157 KiB): DRAM[0m
+[0;32mI (484) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (490) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (497) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (504) spi_flash: detected chip: generic[0m
+[0;32mI (507) spi_flash: flash io: dio[0m
+[0;32mI (513) main_task: Started on CPU0[0m
+[0;32mI (523) main_task: Calling app_main()[0m
+[0;31mE (523) task_wdt: esp_task_wdt_init(515): TWDT already initialized[0m
+[0;31mE (523) WDT_INIT: Failed to initialize Task Watchdog Timer[0m
+[0;32mI (553) wifi:wifi driver task: 3ffc2f04, prio:23, stack:6656, core=0[0m
+[0;32mI (553) wifi:wifi firmware version: 643903f[0m
+[0;32mI (553) wifi:wifi certification version: v7.0[0m
+[0;32mI (553) wifi:config NVS flash: enabled[0m
+[0;32mI (553) wifi:config nano formatting: disabled[0m
+[0;32mI (563) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (563) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (573) wifi:Init management short buffer num: 32[0m
+[0;32mI (573) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (583) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (583) wifi:Init static rx buffer num: 10[0m
+[0;32mI (583) wifi:Init dynamic rx buffer num: 32[0m
+SYNC // FIRMWARE READY
+[0;32mI (593) wifi_init: rx ba win: 6[0m
+[0;32mI (593) wifi_init: accept mbox: 6[0m
+[0;32mI (603) wifi_init: tcpip mbox: 32[0m
+[0;32mI (603) wifi_init: udp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp mbox: 6[0m
+[0;32mI (613) wifi_init: tcp tx win: 5760[0m
+[0;32mI (613) wifi_init: tcp rx win: 5760[0m
+[0;32mI (623) wifi_init: tcp mss: 1440[0m
+[0;32mI (623) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (633) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (633) phy_init: phy_version 4840,02e0d70,Sep  2 2024,19:39:07[0m
+[0;32mI (723) wifi:mode : sta (24:62:ab:f9:21:b0)[0m
+[0;32mI (723) wifi:enable tsf[0m
+[0;32mI (723) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (723) lownet-core: Initialized LowNet -- device ID: 0x96[0m
+[0;31mE (5523) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5523) task_wdt:  - main (CPU 0)[0m
+[0;31mE (5523) task_wdt: Tasks currently running:[0m
+[0;31mE (5523) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (5523) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5523) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;31mE (10713) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10713) task_wdt:  - main (CPU 0)[0m
+[0;31mE (10713) task_wdt: Tasks currently running:[0m
+[0;31mE (10713) task_wdt: CPU 0: IDLE0[0m
+[0;31mE (10713) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10713) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D9942:0x3FFB1F50 0x400D9D5C:0x3FFB1F70 0x400834D5:0x3FFB1FA0 0x400884CB:0x3FFBB520 0x400D2C27:0x3FFBB540 0x4008B321:0x3FFBB560 0x4008A269:0x3FFBB580
+
+[0;32mI (10823) MEMORY_CHECK: Free heap size: 209768 bytes[0m

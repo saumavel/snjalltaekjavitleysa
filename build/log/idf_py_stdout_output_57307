@@ -1,0 +1,22 @@
+[1/9] Building C object esp-idf/ping/CMakeFiles/__idf_ping.dir/ping.c.obj
+/Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/components/ping/ping.c: In function 'ping_receive':
+/Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/components/ping/ping.c:68:55: warning: taking address of packed member of 'struct <anonymous>' may result in an unaligned pointer value [-Waddress-of-packed-member]
+   68 |                         lownet_time_t rtt = time_diff(&packet.timestamp_out, &now);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~
+[2/9] Performing build step for 'bootloader'
+[1/1] cd /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/bootloader/esp-idf/esptool_py && /Users/saumavel/esp/esp-idf/python_env/idf5.4_py3.9_env/bin/python /Users/saumavel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[3/9] No install step for 'bootloader'
+[4/9] Linking C static library esp-idf/ping/libping.a
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable lownet.elf
+/Users/saumavel/esp/esp-idf/tools/xtensa-esp-elf/esp-14.2.0_20240906/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: /Users/saumavel/esp/esp-idf/components/esp_wifi/lib/esp32/libnet80211.a(wl_offchan.o): warning: common of `ctx' overridden by definition from esp-idf/main/libmain.a(app_main.c.obj)
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/lownet.bin
+[9/9] cd /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/esp-idf/esptool_py && /Users/saumavel/esp/esp-idf/python_env/idf5.4_py3.9_env/bin/python /Users/saumavel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/partition_table/partition-table.bin /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/lownet.bin
+lownet.bin binary size 0xbaf80 bytes. Smallest app partition is 0x100000 bytes. 0x45080 bytes (27%) free.

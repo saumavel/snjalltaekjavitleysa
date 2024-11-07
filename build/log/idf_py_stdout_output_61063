@@ -1,0 +1,70 @@
+[1/5] cd /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/esp-idf/esptool_py && /Users/saumavel/esp/esp-idf/python_env/idf5.4_py3.9_env/bin/python /Users/saumavel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/partition_table/partition-table.bin /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/lownet.bin
+lownet.bin binary size 0xbb180 bytes. Smallest app partition is 0x100000 bytes. 0x44e80 bytes (27%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/bootloader/esp-idf/esptool_py && /Users/saumavel/esp/esp-idf/python_env/idf5.4_py3.9_env/bin/python /Users/saumavel/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /Users/saumavel/esp/esp-idf/components/esptool_py && /nix/store/wjja52fahksjwnikmy09n5y2pa7dymma-cmake-3.30.4/bin/cmake -D IDF_PATH=/Users/saumavel/esp/esp-idf -D "SERIAL_TOOL=/Users/saumavel/esp/esp-idf/python_env/idf5.4_py3.9_env/bin/python;;/Users/saumavel/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/saumavel/Desktop/skolinn/forritun_snjalltaekja/assignments/P3/build -P /Users/saumavel/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-0001 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 lownet.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbserial-0001
+Connecting...........
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:62:ab:f9:21:b0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000cbfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26720 bytes to 16355...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16355 compressed) at 0x00001000 in 0.9 seconds (effective 247.7 kbit/s)...
+Hash of data verified.
+Compressed 766336 bytes to 490928...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c6bc... (6 %)
+Writing at 0x000236da... (10 %)
+Writing at 0x0002855f... (13 %)
+Writing at 0x000316f2... (16 %)
+Writing at 0x0003718c... (20 %)
+Writing at 0x0003cc58... (23 %)
+Writing at 0x000429a9... (26 %)
+Writing at 0x000487f7... (30 %)
+Writing at 0x0004ec61... (33 %)
+Writing at 0x000540a1... (36 %)
+Writing at 0x0005928f... (40 %)
+Writing at 0x0005e8a6... (43 %)
+Writing at 0x00063bf3... (46 %)
+Writing at 0x000692e5... (50 %)
+Writing at 0x0006ea47... (53 %)
+Writing at 0x00074815... (56 %)
+Writing at 0x00079e32... (60 %)
+Writing at 0x0007fae0... (63 %)
+Writing at 0x000858aa... (66 %)
+Writing at 0x0008b0b6... (70 %)
+Writing at 0x00090dbd... (73 %)
+Writing at 0x00096790... (76 %)
+Writing at 0x0009c182... (80 %)
+Writing at 0x000a5b63... (83 %)
+Writing at 0x000ac981... (86 %)
+Writing at 0x000b4940... (90 %)
+Writing at 0x000ba4d9... (93 %)
+Writing at 0x000c0263... (96 %)
+Writing at 0x000c5c82... (100 %)
+Wrote 766336 bytes (490928 compressed) at 0x00010000 in 12.8 seconds (effective 479.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 212.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

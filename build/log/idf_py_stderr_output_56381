@@ -1,0 +1,61 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-0001 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4014e860: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

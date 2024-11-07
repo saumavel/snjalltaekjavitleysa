@@ -1,0 +1,233 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-0001 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4014e960: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4014e960: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4014e960: queue_send_wrapper at /Users/saumavel/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c:295
+[0m
+[0;33m--- 0x4000c349: memcpy in ROM
+0x4000c36b: memcpy in ROM
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d9942: task_wdt_timeout_handling at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d9d5c: task_wdt_isr at /Users/saumavel/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400834d5: _xt_lowint1 at /Users/saumavel/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400884cb: xt_utils_wait_for_intr at /Users/saumavel/esp/esp-idf/components/xtensa/include/xt_utils.h:82
+ (inlined by) esp_cpu_wait_for_intr at /Users/saumavel/esp/esp-idf/components/esp_hw_support/cpu.c:55
+0x400d2c27: esp_vApplicationIdleHook at /Users/saumavel/esp/esp-idf/components/esp_system/freertos_hooks.c:58
+0x4008b321: prvIdleTask at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4344 (discriminator 1)
+0x4008a269: vPortTaskWrapper at /Users/saumavel/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m
